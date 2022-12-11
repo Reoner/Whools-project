@@ -1,0 +1,52 @@
+.main-cards {
+    display: flex;
+    width: 1280px;
+    height: 140px;
+    justify-content: space-between;
+    margin-bottom: 81px;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 140px;
+    border: 1.5px solid $color-cardf2;
+    border-radius: 5px;
+    margin-right: 25px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &-image {
+        width: 159px;
+        height: 140px;
+        background: $color-cardf9;
+        border-radius: 4px 0px 0px 4px;
+        position: absolute;
+    }
+
+    &-content {
+        padding: 36px 50px 80px 177px;
+        background: $color-white;
+
+        &-title {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: $colorblack;
+            margin-bottom: 10px;
+        }
+
+        &-subtitle {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+    }
+}

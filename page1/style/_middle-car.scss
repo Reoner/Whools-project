@@ -1,0 +1,47 @@
+.middle-car {
+    width: 89%;
+    height: 358px;
+    background: $colorf7;
+    border-radius: 5px;
+    margin-bottom: 80px;
+
+    &-container {
+        display: flex;
+        width: 530px;
+        height: 200px;
+        flex-wrap: wrap;
+    }
+
+    &-title {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;
+        color: $colorblack;
+        width: 530px;
+        height: 94px;
+        margin-bottom: 50px;
+        padding: 80px 12px 80px 40px;
+    }
+
+    &-button {
+        border-radius: 5px;
+        border: black solid 2px;
+        cursor: pointer;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        color: $colorblack;
+        padding: 14px 74px 14px 32px;
+        margin-left: 40px;
+    }
+
+    &-image {
+        left: 665px;
+        position: absolute;
+    }
+
+}

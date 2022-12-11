@@ -1,0 +1,96 @@
+.wrapper {
+  display: flex;
+  max-width: 1440px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+h4 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  padding: 20px 36px 24px 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 1440px;
+  height: 90px;
+  padding: 23px 80px 20px 79px;
+  background: #FFFFFF;
+}
+.header-container {
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 27px;
+  height: 27px;
+  border-radius: 100px;
+}
+.header-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.header-menu li {
+  list-style-type: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+.header-number {
+  margin-left: 235px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-right: 40px;
+}
+.header-number a {
+  text-decoration: none;
+  color: #000000;
+}
+.header-vector {
+  display: flex;
+  gap: 20px;
+}
+.header-vector-icon {
+  width: 48px;
+  height: 48px;
+  background: #f2f3f5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-shop {
+  width: 1280px;
+}
+.middle-shop-container {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

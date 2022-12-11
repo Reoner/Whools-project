@@ -1,0 +1,33 @@
+.cards-low {
+    width: 1276px;
+    height: 461px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+    background:$color-white;
+    // padding: 0 80px;
+    gap: 17px;
+
+    &-title {
+        width:1276px;
+        height: 42px;
+        margin-bottom: 30px;
+    }
+
+    &-subtitle {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        color: $colorblack;
+    }
+
+    &-content {
+        width: 305px;
+        text-align: center;
+        background: $colorf7;
+        border-radius: 5px;
+        padding: 30px 0;
+    }
+}

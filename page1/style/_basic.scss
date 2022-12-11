@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+h4 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: $colorblack;
+    padding: 20px 36px 24px 20px;
+}
+
+
+h5 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color:$colorblack;
+}
+
+h6 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color:$color-white;
+    margin-bottom:  20px; 
+}

@@ -1,0 +1,50 @@
+.card-bottom {
+    display: flex;
+    width: 1280px;
+    height: 140px;
+    justify-content: space-between;
+    margin-bottom: 81px;
+    justify-content: center;
+
+    &-image {
+        width: 160px;
+        height: 140px;
+        background: $color-cardf9 ;
+        border-radius: 4px 0px 0px 4px;
+        position: absolute;
+        padding: 18px 0px 18px 0px;
+
+        &-car {
+            width: 160px;
+            height: 140px;
+            background: $color-cardf9;
+            border-radius: 4px 0px 0px 4px;
+            position: absolute;
+            padding: 38px 18px 36px 16px;
+        }
+    }
+
+    &-content {
+        padding: 32px 59px 80px 177px;
+        background: $color-white;
+    }
+
+}
+
+.card-number {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+
+    &-container {
+        background: $color-white;
+        border-radius: 4px 0px 0px 4px;
+        width: 160px;
+        height: 139px;
+        position: absolute;
+        padding: 46px 42px 46px 43px;
+    }
+}

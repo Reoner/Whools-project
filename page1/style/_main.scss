@@ -1,0 +1,97 @@
+%ff {
+    font-family: 'DM Sans';
+     font-style: normal;
+}
+
+.main {
+    width: 1280px;
+    height: 600px;
+    margin-bottom: 40px;
+
+    &-container {
+        display: flex;
+        padding: 95px 0px 51px 62px;
+        background: $colorf5;
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+    &-tittle {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 41px;
+        line-height: 53px;
+        color: $colorblack;
+        margin-bottom: 10px;
+        width: 627px;
+        height: 159px;
+    }
+
+    &-subtitle {
+        @extend %ff;
+        // font-family: 'DM Sans';
+        // font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        color: rgba(0, 0, 0, 0.9);
+        margin-bottom: 30px;
+    }
+
+    &-image {
+        align-items: center;
+        width: 813px;
+        height: 453px;
+
+        &-wheels {
+            position: absolute;
+            width: 813px;
+            height: 453px;
+            margin-right: 100px;
+        }
+
+        &-shadow {
+            position: relative;
+            margin-top: 320px;
+            margin-left: 100px;
+        }
+    }
+
+    &-input {
+        width: 514px;
+        height: 62px;
+
+        &-image {
+           
+            background: rgba(66, 0, 255, 0.8);
+            border-radius: 8px;
+            width: 76px;
+            height: 60px;
+            margin-left: 437px;
+            text-align: center;
+            cursor: pointer;
+            
+            & img {
+                margin-top: 20px;
+            }
+        }
+
+        &-text {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: rgba(0, 0, 0, 0.6);
+            border: 2px solid rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            width: 514px;
+            height: 62px;
+            position: absolute;
+            background: none;
+            padding-left: 17px;
+            padding-right: 100px;
+        }
+    }
+}

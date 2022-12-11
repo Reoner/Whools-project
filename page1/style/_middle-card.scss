@@ -1,0 +1,140 @@
+// %vwb {
+//     position: absolute;
+//     padding: 10px 30px 29px 260px
+// }
+
+// .vector-black {
+//     position: absolute;
+//     padding: 10px 30px 29px 260px
+// }
+
+
+.middle-cards {
+    width: 89%;
+    height: 804px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.middle-card {
+    width: 358px;
+    height: 732px;
+    background: $colorf7;
+    border-radius: 5px;
+
+    &-container {
+        width: 358px;
+        height: 76px;
+        padding: 20px 200px 20px 20px;
+
+        &:nth-child(1) {
+            width: 358px;
+            height: 76px;
+            background: #4200FF;
+            border-radius: 5px;
+        }
+    }
+
+    &-image {
+        position: absolute;
+    }
+
+    &-content {
+        padding: 5px 200px 28px 75px;
+        margin-left: 19 px;
+    }
+
+    &-vector-black {
+        position: absolute;
+        padding: 10px 30px 29px 260px;
+
+        &-bad {
+            position: absolute;
+            padding: 10px 30px 29px 235px;
+        }
+    }
+
+    &-vector-white {
+        position: absolute;
+        padding: 10px 30px 29px 260px;
+    }
+}
+
+.middle-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+    &-container {
+        width: 278px;
+        height: 356px;
+        margin-left: 20px;
+        background: $color-white;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    &-image {
+        width: 278px;
+        height: 229px;
+        background: $colorf7;
+        border-radius: 5px 5px 0px 0px;
+        padding: 25px 75px 18px 75px;
+    }
+
+    &-vector {
+        position: absolute;
+        margin-left: 20px;
+    }
+
+    &-subtitle {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: $colorfio42;
+        margin-left: 195px;
+    }
+}
+
+.pagination a {
+    background:$color-white ;
+    border: 1px solid $colorDFE3E8;
+    border-radius: 4px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #212B36;
+    margin-right: 8px;
+    background-size: 32px;
+    text-decoration: none;
+    padding: 6px 8px 6px 8px;
+
+    &:first-child {
+        background: $color919EAB;
+        opacity: 0.5;
+        border-radius: 4px;
+        padding: 6px 8px 6px 8px
+    }
+
+    &:nth-child(2) {
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: $colorfio42;
+        background: $color-white;
+        border: 1px solid $colorfio42;
+        border-radius: 4px;
+    }
+
+    &:last-child {
+        margin: 0;
+    }
+}

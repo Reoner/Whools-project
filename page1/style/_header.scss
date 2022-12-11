@@ -1,0 +1,65 @@
+.header {
+    max-width: 1440px;
+    height: 90px;
+    padding: 23px 80px 20px 79px;
+    background: $color-white;
+
+    &-container {
+        display: flex;
+        width: 1440px;
+        justify-content: space-between;
+    }
+
+    &-logo {
+        width: 27px;
+        height: 27px;
+        border-radius: 100px;
+    }
+
+    &-menu ul {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+    }
+
+        &-menu li {
+            list-style-type: none;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 29px;
+            color: rgba(0, 0, 0, 0.9);
+            cursor: pointer;
+        }
+
+    &-number {
+        margin-left: 235px;
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+        margin-right: 40px;
+        & a {
+            text-decoration: none;
+            color: $colorblack;
+        }
+    }
+
+    &-vector {
+        display: flex;
+        gap: 20px;
+
+        &-icon {
+            width: 48px;
+            height: 48px;
+            background: $color-header-icon;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
