@@ -143,7 +143,7 @@ h6 {
   position: absolute;
   width: 813px;
   height: 453px;
-  right: 250px;
+  right: 500px;
 }
 .main-image-shadow {
   position: relative;
@@ -491,7 +491,7 @@ h6 {
 }
 
 .footer {
-  width: 100%;
+  width: 1440px;
   height: 311px;
   background-color: #2F2F2F;
 }
@@ -499,7 +499,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   padding: 30px 80px 100px 80px;
-  width: 1440px;
+  width: 1280px;
   height: 311px;
 }
 .footer-logo {
