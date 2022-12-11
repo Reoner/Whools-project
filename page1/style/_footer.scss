@@ -5,12 +5,10 @@
 
     &-container {
         display: flex;
-        // justify-content: space-between;
-        // flex-wrap: wrap;
+        justify-content: space-between;
         padding: 30px 80px 100px 80px;
         width: 1440px;
         height: 311px;
-        
     }
 
     &-logo {
@@ -40,7 +38,6 @@
         flex-wrap: wrap;
         width: 250px;
         height: 60px;
-        margin-left:115px;
     }
 
     &-subtitle {
@@ -50,21 +47,28 @@
         font-size: 20px;
         line-height: 200%;
         color: $color-white;
-        
     }
 
     &-vector {
         width: 256px;
-        height: 36px;
-        gap: 26px;
-        display: flex;
-        
-        
-        &-icon {
+        height: 68px;
+       
+
+        &-title {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;   
+        }
+
+
+        &-icon {
             width: 30px;
             height: 30px;
-           
+            margin-right: 26px;
+
+            & :last-child {
+                margin-right: 0;
+            }
         }
     }
 }

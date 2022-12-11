@@ -31,8 +31,7 @@
         background: $color-white;
 
         &-title {
-            font-family: 'DM Sans';
-            font-style: normal;
+            @extend %ff;
             font-weight: 500;
             font-size: 18px;
             line-height: 23px;
@@ -41,8 +40,7 @@
         }
 
         &-subtitle {
-            font-family: 'DM Sans';
-            font-style: normal;
+            @extend %ff;
             font-weight: 500;
             font-size: 14px;
             line-height: 18px;

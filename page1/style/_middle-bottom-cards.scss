@@ -12,8 +12,7 @@
     }
 
     &-subtitle {
-        font-family: 'DM Sans';
-    font-style: normal;
+        @extend %ff;
     font-weight: 400;
     font-size: 28px;
     line-height: 36px;

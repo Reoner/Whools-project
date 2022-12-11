@@ -32,8 +32,7 @@
 }
 
 .card-number {
-    font-family: 'DM Sans';
-    font-style: normal;
+    @extend %ff;
     font-weight: 700;
     font-size: 36px;
     line-height: 47px;

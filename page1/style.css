@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-.main-subtitle {
+.cards-low-subtitle, .middle-bottom-subtitle, .middle-car-button, .middle-car-title, .card-number, .card-content-subtitle, .card-content-title, .main-input-text, .main-subtitle, .main-tittle, h6, h5, h4, h3 {
   font-family: "DM Sans";
-  font-style: normal;
 }
 
 .wrapper {
@@ -17,8 +16,6 @@
 }
 
 h3 {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 20px;
@@ -26,8 +23,6 @@ h3 {
 }
 
 h4 {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 22px;
@@ -36,8 +31,6 @@ h4 {
 }
 
 h5 {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 42px;
@@ -45,8 +38,6 @@ h5 {
 }
 
 h6 {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 31px;
@@ -55,20 +46,20 @@ h6 {
 }
 
 .header {
-  max-width: 1440px;
+  max-width: 1280px;
   height: 90px;
-  padding: 23px 80px 20px 79px;
+  padding: 23px 80px 20px 10px;
   background: #FFFFFF;
 }
 .header-container {
   display: flex;
-  width: 1440px;
+  width: 1280px;
   justify-content: space-between;
 }
 .header-logo {
-  width: 27px;
-  height: 27px;
-  border-radius: 100px;
+  width: 106px;
+  height: 47px;
+  display: flex;
 }
 .header-menu ul {
   display: flex;
@@ -92,7 +83,6 @@ h6 {
   font-size: 18px;
   line-height: 23px;
   color: #000000;
-  margin-right: 40px;
 }
 .header-number a {
   text-decoration: none;
@@ -112,7 +102,7 @@ h6 {
   align-items: center;
 }
 
-.main-subtitle {
+.cards-low-subtitle, .middle-bottom-subtitle, .middle-car-button, .middle-car-title, .card-number, .card-content-subtitle, .card-content-title, .main-input-text, .main-subtitle, .main-tittle, h3, h4, h5, h6 {
   font-family: "DM Sans";
   font-style: normal;
 }
@@ -130,8 +120,6 @@ h6 {
   justify-content: center;
 }
 .main-tittle {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 41px;
   line-height: 53px;
@@ -148,7 +136,6 @@ h6 {
   margin-bottom: 30px;
 }
 .main-image {
-  align-items: center;
   width: 813px;
   height: 453px;
 }
@@ -156,12 +143,12 @@ h6 {
   position: absolute;
   width: 813px;
   height: 453px;
-  margin-right: 100px;
+  right: 250px;
 }
 .main-image-shadow {
   position: relative;
   margin-top: 320px;
-  margin-left: 100px;
+  right: 90px;
 }
 .main-input {
   width: 514px;
@@ -180,8 +167,6 @@ h6 {
   margin-top: 20px;
 }
 .main-input-text {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -227,8 +212,6 @@ h6 {
   background: #FFFFFF;
 }
 .card-content-title {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
@@ -236,8 +219,6 @@ h6 {
   margin-bottom: 10px;
 }
 .card-content-subtitle {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -390,8 +371,6 @@ h6 {
 }
 
 .card-number {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 47px;
@@ -420,8 +399,6 @@ h6 {
   flex-wrap: wrap;
 }
 .middle-car-title {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 47px;
@@ -435,8 +412,6 @@ h6 {
   border-radius: 5px;
   border: black solid 2px;
   cursor: pointer;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 36px;
@@ -462,8 +437,6 @@ h6 {
   position: absolute;
 }
 .middle-bottom-subtitle {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 36px;
@@ -504,8 +477,6 @@ h6 {
   margin-bottom: 30px;
 }
 .cards-low-subtitle {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
@@ -526,6 +497,7 @@ h6 {
 }
 .footer-container {
   display: flex;
+  justify-content: space-between;
   padding: 30px 80px 100px 80px;
   width: 1440px;
   height: 311px;
@@ -553,7 +525,6 @@ h6 {
   flex-wrap: wrap;
   width: 250px;
   height: 60px;
-  margin-left: 115px;
 }
 .footer-subtitle {
   font-family: "DM Sans";
@@ -565,12 +536,18 @@ h6 {
 }
 .footer-vector {
   width: 256px;
-  height: 36px;
-  gap: 26px;
+  height: 68px;
+}
+.footer-vector-title {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .footer-vector-icon {
-  display: flex;
   width: 30px;
   height: 30px;
+  margin-right: 26px;
+}
+.footer-vector-icon :last-child {
+  margin-right: 0;
 }/*# sourceMappingURL=style.css.map */
