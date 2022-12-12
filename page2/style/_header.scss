@@ -1,19 +1,20 @@
 .header {
-    max-width: 1440px;
+    width: 1280px;
     height: 90px;
-    padding: 23px 80px 20px 79px;
+    padding: 23px 80px 40px 0px;
     background: $color-white;
 
     &-container {
         display: flex;
-        width: 1440px;
+        width: 1280px;
         justify-content: space-between;
     }
 
     &-logo {
-        width: 27px;
-        height: 27px;
-        border-radius: 100px;
+        width: 106px;
+        height: 47px;
+        display: flex;
+        
     }
 
     &-menu ul {
@@ -35,12 +36,10 @@
     &-number {
         margin-left: 235px;
         font-family: 'DM Sans', sans-serif;
-        font-style: normal;
         font-weight: 500;
         font-size: 18px;
         line-height: 23px;
-        color: #000000;
-        margin-right: 40px;
+        color: $colorblack;
         & a {
             text-decoration: none;
             color: $colorblack;

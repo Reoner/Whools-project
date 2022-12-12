@@ -1,22 +1,52 @@
+h4, h3, h2, h1 {
+  font-family: "DM Sans", sans-serif;
+}
+
+.middle-shop-subtitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+}
+
 .wrapper {
   display: flex;
-  max-width: 1440px;
+  max-width: 1280px;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url(../assets/fonts/DMSans-Regular.ttf);
+  font-family: "Roboto";
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+h1 {
+  line-height: 42px;
+  letter-spacing: -0.005em;
+  color: #000000;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
 }
 
 h3 {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.9);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
 }
 
 h4 {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 22px;
@@ -31,20 +61,20 @@ h4 {
 }
 
 .header {
-  max-width: 1440px;
+  width: 1280px;
   height: 90px;
-  padding: 23px 80px 20px 79px;
+  padding: 23px 80px 40px 0px;
   background: #FFFFFF;
 }
 .header-container {
   display: flex;
-  width: 1440px;
+  width: 1280px;
   justify-content: space-between;
 }
 .header-logo {
-  width: 27px;
-  height: 27px;
-  border-radius: 100px;
+  width: 106px;
+  height: 47px;
+  display: flex;
 }
 .header-menu ul {
   display: flex;
@@ -63,12 +93,10 @@ h4 {
 .header-number {
   margin-left: 235px;
   font-family: "DM Sans", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
   color: #000000;
-  margin-right: 40px;
 }
 .header-number a {
   text-decoration: none;
@@ -93,4 +121,72 @@ h4 {
 }
 .middle-shop-container {
   display: flex;
+}
+.middle-shop-box {
+  height: 565px;
+}
+.middle-shop-box-img {
+  background: #F7F7F7;
+  border-radius: 5px;
+  width: 555px;
+  height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.middle-shop-box-img-bmw {
+  width: 333px;
+  height: 339px;
+}
+.middle-shop-box-small {
+  width: 500px;
+  height: 90px;
+  border-radius: 5px;
+  gap: 14px;
+  display: flex;
+}
+.middle-shop-box-small-card {
+  width: 100px;
+  height: 90px;
+  background: #f2f3f5;
+  padding: 13px 18px 13px 17px;
+}
+.middle-shop-title {
+  width: 794px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 50px 90px 60px 50px;
+}
+.middle-shop-title-bmw {
+  margin-bottom: 15px;
+}
+.middle-shop-subtitle {
+  margin-bottom: 27px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.middle-shop-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 27px;
+}
+.middle-shop-rating-container-vector {
+  width: 10px;
+  height: 5px;
+}
+.middle-shop-rating-comment {
+  margin-left: 25px;
+}
+.middle-shop-material {
+  width: 185px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.middle-shop-material-text {
+  color: rgba(0, 0, 0, 0.7);
 }/*# sourceMappingURL=style.css.map */

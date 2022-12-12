@@ -9,5 +9,21 @@ $color919EAB:#919EAB;
 $colorDFE3E8:#DFE3E8;
 $colorblack:#000000;
 $colorfooter:#2F2F2F;
+$colore5:#E5E5E5;;
 
+%ffD {
+    font-family: 'DM Sans', sans-serif;
+}
 
+%h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: $colorblack;
+}
+
+%vwb {
+    position: absolute;
+    padding: 10px 30px 29px 260px
+}

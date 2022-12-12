@@ -3,6 +3,89 @@
 
     &-container {
         display: flex;
-        
+
+    }
+
+    &-box {
+        height: 565px;
+
+        &-img {
+            background: $colorf7;
+            border-radius: 5px;
+            width: 555px;
+            height: 460px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+
+            &-bmw {
+                width: 333px;
+                height: 339px;
+            }
+        }
+
+        &-small {
+            width: 500px;
+            height: 90px;
+            border-radius: 5px;
+            gap: 14px;
+            display: flex;
+
+            &-card {
+                width: 100px;
+                height: 90px;
+                background: $color-header-icon;
+                padding: 13px 18px 13px 17px;
+            }
+        }
+    }
+
+    &-title {
+        width: 794px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        padding: 50px 90px 60px 50px;
+
+        &-bmw {
+            margin-bottom: 15px;
+        }
+    }
+
+    &-subtitle {
+        margin-bottom: 27px;
+        @extend %h2;
+        text-decoration-line: underline;
+    }
+
+    &-rating {
+        &-container {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-bottom: 27px;
+
+            &-vector {
+                width: 10px;
+                height: 5px;
+            }
+        }
+
+        &-comment {
+            margin-left: 25px;
+        }
+    }
+
+    &-material {
+        width: 185px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &-text {
+            color: rgba(0, 0, 0, 0.7);
+        }
     }
 }
