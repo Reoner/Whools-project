@@ -1,5 +1,9 @@
-h4, h3, h2, h1 {
+.cards-auto-subtitle, .middle-cost-subtitle, h5, h4, h3, h2, h1 {
   font-family: "DM Sans", sans-serif;
+}
+
+.middle-cost-content-subtitle {
+  font-family: "Roboto", sans-serif;
 }
 
 .middle-shop-subtitle {
@@ -80,6 +84,22 @@ h4 {
   font-weight: 400;
   font-size: 24px;
   line-height: 31px;
+  color: #000000;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+
+h6 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
   color: #000000;
 }
 
@@ -251,6 +271,7 @@ h4 {
   width: 1280px;
   height: 466px;
   background: #F9F9F9;
+  margin-bottom: 80px;
 }
 .main-info-container {
   display: flex;
@@ -290,4 +311,85 @@ h4 {
 
 .subtitle-main {
   margin-bottom: 50px;
+}
+
+.middle-cost {
+  width: 1280px;
+  height: 428px;
+  margin-bottom: 80px;
+}
+.middle-cost-container {
+  display: flex;
+}
+.middle-cost-title {
+  width: 1280px;
+  height: 42px;
+  display: flex;
+  position: absolute;
+}
+.middle-cost-subtitle {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-left: 800px;
+}
+.middle-cost-card-container {
+  width: 303px;
+  height: 356px;
+  margin-right: 20px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+.middle-cost-image {
+  width: 303px;
+  height: 229px;
+  background: #F7F7F7;
+  border-radius: 5px 5px 0px 0px;
+  padding: 23px 69px 16px 69px;
+}
+.middle-cost-content {
+  padding: 20px 21px 20px 20px;
+}
+.middle-cost-content-vector {
+  margin-top: 28px;
+  position: absolute;
+}
+.middle-cost-content-subtitle {
+  margin-top: 28px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #4200FF;
+  margin-left: 195px;
+}
+
+.cards-auto {
+  width: 1276px;
+  height: 461px;
+  margin-bottom: 120px;
+  background: #FFFFFF;
+}
+.cards-auto-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+.cards-auto-title {
+  width: 1276px;
+  height: 42px;
+  margin-bottom: 30px;
+}
+.cards-auto-subtitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+.cards-auto-content {
+  width: 305px;
+  text-align: center;
+  background: #F7F7F7;
+  border-radius: 5px;
+  padding: 30px 0;
 }/*# sourceMappingURL=style.css.map */

@@ -46,5 +46,23 @@ h4 {
     font-size: 24px;
     line-height: 31px;
     color: $colorblack;
+}
+
+h5 {
+    @extend %ffD;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+
+h6 {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 22px;
+
+color: #000000;
 
 }
