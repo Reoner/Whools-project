@@ -1,9 +1,9 @@
 .middle-shop {
-    width: 1280px;
+   width: 1280px;
 
     &-container {
         display: flex;
-
+       max-width: 1280px;
     }
 
     &-box {
@@ -12,7 +12,7 @@
         &-img {
             background: $colorf7;
             border-radius: 5px;
-            width: 555px;
+            width: 560px;
             height: 460px;
             display: flex;
             align-items: center;
@@ -43,10 +43,10 @@
     }
 
     &-title {
-        width: 794px;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: flex-start;
+        width: 720px;
+        // display: flex;
+        // flex-wrap: wrap;
+        // align-content: flex-start;
         padding: 50px 90px 60px 50px;
 
         &-bmw {
@@ -83,9 +83,47 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-bottom: 55px;
 
         &-text {
             color: rgba(0, 0, 0, 0.7);
+        }
+    }
+    &-cost {
+        
+        &-title {
+            margin-bottom: 20px;
+        }
+        &-button {
+            display: flex;
+            gap: 20px;
+            &-left{
+                width: 118px;
+                height: 53px; 
+                background:$color-header-icon;
+               @extend %brbn;
+               margin-right: 20px;
+               @extend %button-text;
+               cursor: no-drop;
+            }
+
+            &-middle {
+                width: 203px;
+                height: 53px;
+                border: 2px solid $colorfio42;
+                border-radius: 5px;
+                background: none;
+                cursor: no-drop;
+            }
+
+            &-right {
+                width: 178px;
+                height: 53px;
+                background:$colorfio42 ;
+                @extend %brbn;
+                @extend %h2-white;
+                cursor: no-drop;
+            }
         }
     }
 }

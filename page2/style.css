@@ -10,6 +10,27 @@ h4, h3, h2, h1 {
   color: #000000;
 }
 
+.middle-shop-cost-button-right {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.middle-shop-cost-button-left {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+}
+
+.middle-shop-cost-button-right, .middle-shop-cost-button-left {
+  border-radius: 5px;
+  border: none;
+}
+
 .wrapper {
   display: flex;
   max-width: 1280px;
@@ -121,6 +142,7 @@ h4 {
 }
 .middle-shop-container {
   display: flex;
+  max-width: 1280px;
 }
 .middle-shop-box {
   height: 565px;
@@ -128,7 +150,7 @@ h4 {
 .middle-shop-box-img {
   background: #F7F7F7;
   border-radius: 5px;
-  width: 555px;
+  width: 560px;
   height: 460px;
   display: flex;
   align-items: center;
@@ -154,10 +176,7 @@ h4 {
   padding: 13px 18px 13px 17px;
 }
 .middle-shop-title {
-  width: 794px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  width: 720px;
   padding: 50px 90px 60px 50px;
 }
 .middle-shop-title-bmw {
@@ -186,7 +205,36 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 55px;
 }
 .middle-shop-material-text {
   color: rgba(0, 0, 0, 0.7);
+}
+.middle-shop-cost-title {
+  margin-bottom: 20px;
+}
+.middle-shop-cost-button {
+  display: flex;
+  gap: 20px;
+}
+.middle-shop-cost-button-left {
+  width: 118px;
+  height: 53px;
+  background: #f2f3f5;
+  margin-right: 20px;
+  cursor: no-drop;
+}
+.middle-shop-cost-button-middle {
+  width: 203px;
+  height: 53px;
+  border: 2px solid #4200FF;
+  border-radius: 5px;
+  background: none;
+  cursor: no-drop;
+}
+.middle-shop-cost-button-right {
+  width: 178px;
+  height: 53px;
+  background: #4200FF;
+  cursor: no-drop;
 }/*# sourceMappingURL=style.css.map */
