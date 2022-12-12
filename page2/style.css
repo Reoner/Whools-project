@@ -250,7 +250,11 @@ h6 {
   height: 53px;
   background: #f2f3f5;
   margin-right: 20px;
-  cursor: no-drop;
+  cursor: pointer;
+  opacity: 1;
+}
+.middle-shop-cost-button-left:hover {
+  opacity: 0.6;
 }
 .middle-shop-cost-button-middle {
   width: 203px;
@@ -258,7 +262,10 @@ h6 {
   border: 2px solid #4200FF;
   border-radius: 5px;
   background: none;
-  cursor: no-drop;
+  cursor: pointer;
+}
+.middle-shop-cost-button-middle:hover {
+  box-shadow: inset 0 0 0 3px #4200FF;
 }
 .middle-shop-cost-button-right {
   width: 178px;
@@ -340,6 +347,9 @@ h6 {
   margin-right: 20px;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
   margin-top: 50px;
+}
+.middle-cost-card-container:hover {
+  transform: scale(0.9);
 }
 .middle-cost-image {
   width: 303px;

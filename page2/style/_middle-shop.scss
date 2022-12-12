@@ -1,9 +1,9 @@
 .middle-shop {
-   width: 1280px;
+    width: 1280px;
 
     &-container {
         display: flex;
-       max-width: 1280px;
+        max-width: 1280px;
     }
 
     &-box {
@@ -89,22 +89,29 @@
             color: rgba(0, 0, 0, 0.7);
         }
     }
+
     &-cost {
-        
+
         &-title {
             margin-bottom: 20px;
         }
+
         &-button {
             display: flex;
             gap: 20px;
-            &-left{
+
+            &-left {
                 width: 118px;
-                height: 53px; 
-                background:$color-header-icon;
-               @extend %brbn;
-               margin-right: 20px;
-               @extend %button-text;
-               cursor: no-drop;
+                height: 53px;
+                background: $color-header-icon;
+                @extend %brbn;
+                margin-right: 20px;
+                @extend %button-text;
+                cursor: pointer;
+                opacity: 1;
+                &:hover {
+                    opacity: 0.6;
+                }
             }
 
             &-middle {
@@ -113,17 +120,23 @@
                 border: 2px solid $colorfio42;
                 border-radius: 5px;
                 background: none;
-                cursor: no-drop;
+                cursor: pointer;
+
+                &:hover {
+                    box-shadow: inset 0 0 0 03px $colorfio42;
+                }
             }
 
             &-right {
                 width: 178px;
                 height: 53px;
-                background:$colorfio42 ;
+                background: $colorfio42 ;
                 @extend %brbn;
                 @extend %h2-white;
                 cursor: no-drop;
+               
             }
+
         }
     }
 }
