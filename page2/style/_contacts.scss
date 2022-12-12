@@ -32,7 +32,7 @@ $colore5:#E5E5E5;;
 }
 
 %button-text {
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -47,4 +47,14 @@ $colore5:#E5E5E5;;
 %brbn {
     border-radius: 5px;
     border:none;
+}
+
+%subtitle-main {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.8);
+
 }

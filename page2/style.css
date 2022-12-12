@@ -19,7 +19,7 @@ h4, h3, h2, h1 {
 }
 
 .middle-shop-cost-button-left {
-  font-family: "DM Sans";
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -29,6 +29,15 @@ h4, h3, h2, h1 {
 .middle-shop-cost-button-right, .middle-shop-cost-button-left {
   border-radius: 5px;
   border: none;
+}
+
+.subtitle-main {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .wrapper {
@@ -68,11 +77,10 @@ h3 {
 }
 
 h4 {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 22px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
   color: #000000;
-  padding: 20px 36px 24px 20px;
 }
 
 * {
@@ -237,4 +245,49 @@ h4 {
   height: 53px;
   background: #4200FF;
   cursor: no-drop;
+}
+
+.main-info {
+  width: 1280px;
+  height: 466px;
+  background: #F9F9F9;
+}
+.main-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 300px 40px 60px;
+}
+.main-info-title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.main-info progress.line {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 656px;
+  height: 4px;
+  border-top: 20px;
+  margin-bottom: 30px;
+}
+.main-info progress.line::-webkit-progress-bar {
+  background: rgba(196, 196, 196, 0.7);
+  border-radius: 4px;
+}
+.main-info progress.line::-webkit-progress-value {
+  background: #4200FF;
+  border-radius: 4px;
+}
+.main-info-subtitle {
+  width: 921px;
+  height: 315px;
+}
+.main-info-subtitle-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subtitle-main {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */

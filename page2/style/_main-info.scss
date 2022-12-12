@@ -1,0 +1,52 @@
+.main-info {
+    width: 1280px;
+    height: 466px;
+    background: $color-cardf9;
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 300px 40px 60px;
+    }
+
+    &-title {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    progress.line {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 656px;
+        height: 4px;
+        border-top: 20px;
+        margin-bottom: 30px;
+
+        &::-webkit-progress-bar {
+            background: rgba(196, 196, 196, 0.7);
+            border-radius: 4px;
+        }
+
+        &::-webkit-progress-value {
+            background: $colorfio42;
+            border-radius: 4px;
+        }
+    }
+
+    &-subtitle {
+        width: 921px;
+        height: 315px;
+
+
+        &-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.subtitle-main {
+    @extend %subtitle-main;
+    margin-bottom: 50px;
+}
