@@ -173,6 +173,9 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+.header-vector-icon:first-child:hover {
+  transform: scale(1.2);
+}
 
 .middle-shop {
   width: 1280px;

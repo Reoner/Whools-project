@@ -13,6 +13,7 @@
   max-width: 1440px;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
 }
 
 h3 {
@@ -101,6 +102,9 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+.header-vector-icon:first-child:hover {
+  transform: scale(1.2);
+}
 
 .cards-low-subtitle, .middle-bottom-subtitle, .middle-car-button, .middle-car-title, .card-number, .card-content-subtitle, .card-content-title, .main-input-text, .main-subtitle, .main-tittle, h3, h4, h5, h6 {
   font-family: "DM Sans";
@@ -143,7 +147,7 @@ h6 {
   position: absolute;
   width: 813px;
   height: 453px;
-  right: 500px;
+  right: 300px;
 }
 .main-image-shadow {
   position: relative;
